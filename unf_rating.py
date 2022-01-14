@@ -6,6 +6,8 @@ from os import path
 #Accept only simple name
 #Right now only the Computing and Math department identified
 library_id = {"Computing": 6502, "Math": 6103, "Communication": 6108,               #Department
+                "Art": 6122, "Sciences": 6101, "Biology": 6120, "Brooks": 6401, "Chemistry": 6124, "TESOL": 6302, "Civil": 6503, "Clinical": 6404, "Business": 6201, "Construction": 6506, "Criminology": 6123, "Economics": 6203, "Geography": 6203, "Education": 6301, "Electrical": 6505, "English": 6102, "Deaf": 6303, "First": 6023, "Foundations": 6304, "Health": 6406, "History": 6107, "Honors": 6007, "Languages": 6121, "Leadership": 6307, "Management": 6205, "Marketing": 6206, "Preparatory": '0002', "Mechanical": 6504, "Military": '0001', "Music": 6109, "Nursing": 6403, "Nutrition": 6405, "Philosophy": 6105, "Physical": 6407, "Physics": 6104, "Political": 6111, "Psychology": 6106, "Public Health": 6402, "Sociology": 6110, "Teaching": 6305, "Studies": 6801,
+                   
                 "Fall": 80, "Spring": 10, "Summer": 50}                             #Season
 
 #Get the Summary Data and Save it by season_year_department.csv
